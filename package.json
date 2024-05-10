@@ -1,0 +1,11 @@
+{
+  "name": "dockers",
+  "version": "1.0.0",
+  "description": "Dockers para desarollo de Garabatos",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Sergio Antonio Trujillo",
+  "license": "MIT"
+}
