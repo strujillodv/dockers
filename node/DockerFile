@@ -1,4 +1,5 @@
 # Usa la imagen de Alpine Linux como base
+
 FROM node:lts-alpine
 
 # Etiqueta de información
@@ -19,6 +20,5 @@ RUN npm install
 EXPOSE 3030
 
 VOLUME ["/app"]
-
 # Comando por defecto para ejecutar la aplicación
 CMD ["npm", "dev"]
