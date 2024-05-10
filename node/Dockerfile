@@ -17,7 +17,11 @@ COPY ./app .
 # Instala las dependencias del proyecto
 RUN npm install
 
+EXPOSE 4567
+EXPOSE 8080
 EXPOSE 3030
+EXPOSE 3031
+EXPOSE 3032
 
 VOLUME ["/app"]
 # Comando por defecto para ejecutar la aplicación
